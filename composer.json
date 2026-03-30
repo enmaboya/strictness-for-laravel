@@ -1,0 +1,29 @@
+{
+    "name": "enmaboya/strictness-for-laravel",
+    "description": "more strictness for laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Enmaboya\\StrictnessForLaravel\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "enmaboya",
+            "email": "i@vdubov.ru"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^11.0|^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Enmaboya\\StrictnessForLaravel\\StrictnessForLaravelServiceProvider"
+            ]
+        }
+    }
+}

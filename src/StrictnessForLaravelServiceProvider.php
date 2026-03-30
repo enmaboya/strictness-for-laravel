@@ -10,7 +10,7 @@ class StrictnessForLaravelServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        $this->app->alias('config', 'strict_config');
+        //
     }
 
     public function boot(): void

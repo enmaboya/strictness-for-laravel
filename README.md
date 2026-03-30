@@ -44,7 +44,7 @@ Values like `config('app.name')` populated from `env('APP_NAME')` are read throu
 - [x] Strict `integer()` reads with optional `IntType` validation
 - [ ] Strict `validatedString()` reads with optional `IntType` validation
 - [ ] Strict `validatedInteger()` reads with optional `IntType` validation
-- [ ] Strict `env()`
+- [x] Strict `env()`
 
 ## License
 MIT
